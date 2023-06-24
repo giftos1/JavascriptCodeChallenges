@@ -2,6 +2,7 @@
 The variable watchList holds an array of objects with information on several movies.
 Use reduce to find the average IMDB rating of the movies directed by Christopher Nolan.
 The function was meant to not use any for loops
+You can user Number to convert the string imdbRatings to number in stead of the positive sign
 */
 
 const watchList = [
@@ -129,4 +130,4 @@ function getRating(watchList) {
     // return totalRating;
 }
 
-console.log(getRating(watchList));
+console.log(getRating(watchList)); // 8.675
