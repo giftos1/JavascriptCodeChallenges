@@ -8,9 +8,10 @@ function numOfDigits(num) {
 console.log(numOfDigits(1000));
 
 // This function uses regular expressions to count the digits in a given number
-function totalDigits(number) {
-    let numberRegex = /`$[{number}]`/;
-    return number.match(numberRegex)
+function totalDigits(digit) {
+    // let numberRegex = new RegExp(/[0-9]/, "g");
+    let numberRegex = /[0-9]/g;
+    return digit.toString().match(numberRegex).length;
 }
 
 console.log(totalDigits(127));
