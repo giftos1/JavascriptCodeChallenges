@@ -3,7 +3,7 @@
 which form building blocks of the DNA double helix.*/
 function pairElement(str) {
     let basePairs = [];
-    let matchbasePairs = (function (char) {
+    let matchBasePairs = (function (char) {
         if(char === "A") {
             return ["A", "T"];
         } else if(char ==="T") {
@@ -15,7 +15,7 @@ function pairElement(str) {
         }
     })
     for(let i = 0; i < str.length; i++) {
-        basePairs.push(matchbasePairs(str[i]));
+        basePairs.push(matchBasePairs(str[i]));
     }
     return basePairs;
 }
