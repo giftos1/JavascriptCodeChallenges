@@ -16,11 +16,11 @@ function sumPrimes(num) {
 
         return true;
     }
-    for (let i =0; i<= num; i++) {
-        if (isPrime(i)){
+
+    for (let i =0; i<= num; i++)
+        if (isPrime(i))
             sumOfPrime += i;
-        }
-    }
+
     return sumOfPrime;
 }
 
