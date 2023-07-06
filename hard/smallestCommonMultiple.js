@@ -22,5 +22,9 @@ function smallestCommons(arr) {
     }
 }
 
+// Tests
 console.log(smallestCommons([1,5]));
-console.log(smallestCommons([2, 10]))
+console.log(smallestCommons([1, 5]));
+console.log(smallestCommons([2, 10]));
+console.log(smallestCommons([1, 13]));
+console.log(smallestCommons([23, 18]));
