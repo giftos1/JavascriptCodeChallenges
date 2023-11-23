@@ -1,5 +1,5 @@
 /*The function moves all the zeroes to the end of an array.
-* I returned a copy of the original array*/
+* The function does not return a copy of the original array*/
 
 
 function zeroesToEnd(arr) {
@@ -18,7 +18,7 @@ function zeroesToEnd(arr) {
                 newArr.push(arr[i]);
             }
         }
-    arr = newArr;
+    arr = newArr; // copy contents of newArr to original arr
     return arr;
 }
 
